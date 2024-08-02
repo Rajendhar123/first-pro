@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            background-color: lawngreen;
+            padding: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style:italic;
+            font
+
+        }
+    </style>
+</head>
+<body>
+   
+    <form action="#">
+        <center><h2>Registration Form</h2></center>
+        <label for="name" style="background-color: coral;">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your name"><br><br>
+        <label for="email" style="background-color: cyan;">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+        <label for="dob" style="background-color: darkgreen;">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="gender">Gender:</label><br><br>
+        <input type="radio" id="gender" name="gender" checked>
+        <label for="gender">Male</label><br><br>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Female</label><br><br>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Other</label><br><br>
+        <label for="skills">Select skills:</label><br><br>
+        <input type="checkbox" id="skills" name="skills">
+        <label for="skills">Excel</label><br><br>
+        <input type="checkbox" id="skills" name="skills">
+        <label for="skills">Ms Word</label><br><br>
+        <input type="checkbox" id="skills" name="skills">
+        <label for="skills">Python Programming</label><br><br>
+        <input type="checkbox" id="skills" name="skills">
+        <label for="skills">Web designing</label><br><br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="--">select any city</option>
+            <option value="Hyd">Hyderabad</option>
+            <option value="Knr">Karimnagar</option>
+            <option value="Srcl">Sircilla</option>
+        </select><br><br>
+        <label for="file">Upload Resume:</label>
+        <input type="file" id="file" name="file">
+       
+        <center><input type="submit"></center>
+
+
+    </form>
+</body>
+</html>
